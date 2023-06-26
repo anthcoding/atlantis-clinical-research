@@ -5,15 +5,13 @@ import React from 'react';
 import CustomButton from './CustomButton';
 
 import Image from 'next/image';
-import {AiOutlineInstagram} from 'react-icons/ai';
-import {AiOutlineFacebook} from 'react-icons/ai';
-import Logo from '../../../public/assests/logo.jpg';
+import Logo from '../../../public/assests/logo.png';
 
 const Footer = () => {
   return (
     <footer className="w-9/12 mx-auto">
       <div className="w-full rounded-3xl md:flex mt-52 mb-16">
-        <div className="mb-6 md:mb-0 w-full md:w-1/3 flex justify-center items-center flex-col">
+        <div className="mx-auto mb-6 md:mb-0 w-full md:w-1/3 flex justify-center items-center flex-col">
           <div>
             <h3 className="text-center md:text-start text-lg text-darkHeading pb-5">
               Let's stay conected
@@ -32,7 +30,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="mb-6 md:mb-0 w-full md:w-1/3 flex flex-col items-center">
+
+        <div className="mx-auto mb-6 md:mb-0 w-full md:w-1/3 flex flex-col items-center">
           <h3 className="text-lg text-darkHeading pb-2">Navigate</h3>
           <Link
             className="hover:text-dark transition duration-350 font-light text-sm md:text-md text-lightGray"
@@ -54,6 +53,7 @@ const Footer = () => {
           </Link>
           <CustomButton label="Contact us" outline={true} route="contact-us" />
         </div>
+
         <div className="w-full md:w-1/3 flex flex-row sm:flex-col items-center justify-center">
           <div className="flex justify-center items-center mx-auto md:mx-0 md:block ">
             <Link href="home">
@@ -66,6 +66,7 @@ const Footer = () => {
       </div>
 
       <hr className="text-extraLightGray boredr-0 mb-2" />
+
       <p className="text-center text-lightGray text-xsm sm:text- mb-5 font-light">
         Copyright ©{new Date().getFullYear()} Atlantis Health Care All rights
         reserved{' '}

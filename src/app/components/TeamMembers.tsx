@@ -23,7 +23,13 @@ const TeamMembers = ({right, name, position, img, id}: TeamMembersProps) => {
           id !== 1 ? 'order-2' : 'items-start'
         } flex flex-col justify-center p-3`}
       >
-        <Image src={img} alt="Staff profile photo" />
+        <Image
+          height={120}
+          width={120}
+          src={img}
+          className="rounded-full"
+          alt="Staff profile photo"
+        />
       </div>
       <div
         className={`${

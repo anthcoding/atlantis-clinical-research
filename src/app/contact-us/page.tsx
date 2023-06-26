@@ -6,6 +6,8 @@ import {useForm} from 'react-hook-form';
 import {sendContactForm} from '../../../lib/api';
 import toast, {Toaster} from 'react-hot-toast';
 
+import Reveal from '../components/Reveal';
+
 type FormData = {
   name: string;
   lastName: string;
@@ -51,13 +53,22 @@ const ContactUS = () => {
     <div className="flex flex-col md:flex-row mt-24 w-10/12 mx-auto">
       <Toaster position="top-center" reverseOrder={false} />
       <div className="w-full md:w-[50%]">
-        <h1 className="text-center w-full lg:w-2/4 mx-auto lg:text-start text-xl font-bold text-darkHeading mb-6 lg:mb-12">
-          Let's talk!
-        </h1>
-        <p className="w-full lg:w-2/4 mb-12 lg:mb-0 mx-auto text-center lg:text-start text-sm sm:text-sm md:text-md text-darkGray font-light">
-          Have some big idea or brand to develop and need help? Then reach out
-          we'd love to hear about your project and provide help
-        </p>
+        <Reveal delay={0.15}>
+          <h1 className="text-center mx-auto w-full lg:w-3/4 lg:text-start text-xl font-bold text-darkHeading mb-6 lg:mb-12">
+            Let's talk!
+          </h1>
+        </Reveal>
+        <Reveal delay={0.25}>
+          <p className="mx-auto w-full lg:w-3/4 mb-12 lg:mb-0 text-center md:text-start text-sm sm:text-sm md:text-md text-darkGray font-light">
+            Thank you for visiting{' '}
+            <span className="text-darkGray font-extrabold">
+              Atlantis Health Clinic{' '}
+            </span>
+            . We value your interest and would love to hear from you. Whether
+            you have a question, need assistance, or simply want to share your
+            thoughts, our team is here to help.
+          </p>
+        </Reveal>
       </div>
       <div className="w-full md:w-[50%]">
         <form
