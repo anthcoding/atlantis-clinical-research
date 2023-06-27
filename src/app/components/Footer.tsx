@@ -67,7 +67,7 @@ const Footer = () => {
 
       <hr className="text-extraLightGray boredr-0 mb-2" />
 
-      <p className="text-center text-lightGray text-xsm sm:text- mb-5 font-light">
+      <p className="text-center text-lightGray text-xsm sm:text-sm mb-5 font-light">
         Copyright ©{new Date().getFullYear()} Atlantis Health Care All rights
         reserved{' '}
       </p>
