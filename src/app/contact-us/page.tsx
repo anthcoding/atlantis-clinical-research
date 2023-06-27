@@ -62,7 +62,7 @@ const ContactUS = () => {
           <p className="mx-auto w-full lg:w-3/4 mb-12 lg:mb-0 text-center md:text-start text-sm sm:text-sm md:text-md text-darkGray font-light">
             Thank you for visiting{' '}
             <span className="text-darkGray font-extrabold">
-              Atlantis Health Clinic{' '}
+              Atlantis Clinical Research{' '}
             </span>
             . We value your interest and would love to hear from you. Whether
             you have a question, need assistance, or simply want to share your

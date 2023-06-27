@@ -14,18 +14,21 @@ const page = () => {
       <section className="w-9/12 mx-auto ">
         <div className="lg:flex row lg:pt-[100px]">
           <div className="mb-12 lg:mb-0 lg:w-[50%]">
-            <Reveal delay={0.25} duration={0.5}>
+            <Reveal delay={0.25} duration={0.5} width="fit-content">
               <h1 className="text-xlg sm:text-xl md:text-xxl font-extrabold sm:leading-[4.6rem] text-darkHeading">
-                <p className="w-[80%] highlight highlight-yellow highlight-spread-md highlight-variant-11">
-                  Researching
-                </p>
+                <Reveal delay={0.25} duration={0.5} width="fit-content">
+                  <p className=" highlight highlight-lightBlue200 highlight-spread-md highlight-variant-11">
+                    Researching
+                  </p>
+                </Reveal>
                 today for a better tomorrow{' '}
               </h1>
             </Reveal>
             <Reveal delay={1}>
               <p className="mt-5 text-darkGray text-sm sm:text-md font-light w-8/12 mb-12">
-                Helping Patients while advancing medical science. Participate in
-                a Trial Today and help find a cure tomorrow.
+                Helping patients while advancing medical science. Participate in
+                a Trial <span className="font-bold text-darkGray">today</span>{' '}
+                and help find a cure tomorrow.
               </p>
             </Reveal>
             <Reveal delay={1}>
@@ -68,7 +71,7 @@ const page = () => {
           <Reveal delay={0.25}>
             <p className="text-center text-sm sm:text-md text-darkGray font-light">
               <span className="text-darkGray font-extrabold">
-                Atlantis Health Clinic{' '}
+                Atlantis Clinical Research{' '}
               </span>
               is a multi-specialty research facility in Miami, Florida. Our
               company has a passionate staff with more than 20 years in the
