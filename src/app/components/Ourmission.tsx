@@ -20,42 +20,42 @@ import Reveal from './Reveal';
 const TEAM_INFO = [
   {
     id: 1,
-    name: 'Orlando C. Moreno',
-    position: 'MD, Internal Medicine specialist | Principal Investigator',
+    name: 'Orlando C. Moreno | MD',
+    position: 'Internal Medicine specialist | Principal Investigator',
     img: Orlando,
     delay: 0.25,
   },
   {
     id: 2,
-    name: 'Tamara Guerra Alfonso',
+    name: 'Tamara Guerra Alfonso | MD',
     position: 'Psychiatric Board Certified | Principal Investigator',
     img: Tamara,
     delay: 0.35,
   },
   {
     id: 2,
-    name: 'Marelys Torres Abreu',
-    position: 'APRN FNP board Certified | Sub-investigator',
+    name: 'Marelys Torres Abreu | APRN',
+    position: 'FNP board Certified | Sub-investigator',
     img: Marelis,
     delay: 0.45,
   },
   {
     id: 1,
-    name: 'Laritza Lincheta Enriquez',
+    name: 'Laritza Lincheta Enriquez | APRN',
     img: Laritsa,
-    position: 'APRN FNP Board certified | Manager Director ',
+    position: 'FNP Board certified | Manager Director ',
     delay: 0.55,
   },
   {
     id: 1,
-    name: 'Laura Misiara Lincheta',
-    position: 'BSN in science | Study Coordinator',
+    name: 'Laura Misiara Lincheta | BSN in science',
+    position: 'Study Coordinator',
     img: Laura,
     delay: 0.55,
   },
   {
     id: 2,
-    name: 'Reinaldo Diaz',
+    name: 'Reinaldo Diaz | Bachelor in Psychology',
     img: Rei,
     position: 'Recruiter Department',
     delay: 0.65,
@@ -169,9 +169,9 @@ const Ourmission = () => {
             </Reveal>
             <Reveal delay={0.45}>
               <p className="text-center md:-text-start text-sm sm:text-md text-darkGray font-light">
-                Atlantis Health Clinic staff is committed to our ongoing site
-                outreach and incident monitoring we are considering backup plans
-                to review data.
+                Atlantis Clinical Research staff is committed to our ongoing
+                site outreach and incident monitoring we are considering backup
+                plans to review data.
                 <br />
                 <br />
                 We continue to remain in complete control of our sponsors’
@@ -187,7 +187,7 @@ const Ourmission = () => {
             </Reveal>
             <Reveal delay={0.45}>
               <p className="text-center md:-text-start text-sm sm:text-md text-darkGray font-light">
-                Atlantis Health Clinic is invested in the success of our
+                Atlantis Clinical Research is invested in the success of our
                 employees. When our colleagues are inspired and nurtured, they
                 do their best work.
                 <br />
@@ -215,7 +215,7 @@ const Ourmission = () => {
             {TEAM_INFO.map((member, idx) => (
               <Reveal delay={member.delay}>
                 <TeamMembers
-                  key={member.name}
+                  key={member.delay}
                   img={member.img}
                   name={member.name}
                   position={member.position}

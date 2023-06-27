@@ -45,9 +45,7 @@ const Learn = () => {
               <br />
               <li>To potentially help others.</li>
               <br />
-              <li>To potentially help others.</li>
               <br />
-              <li>Internal Medicine</li>
             </ul>
           </div>
         </div>
