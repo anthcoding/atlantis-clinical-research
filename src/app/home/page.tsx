@@ -45,6 +45,7 @@ const page = () => {
               className="absolute left-[1%] lg:h-[700px] lg:w-[800px] -top-[16%] lg:bottom-0"
               src={HeroGradient}
               alt="HeroGradient"
+              placeholder="blur"
             />
 
             <Reveal delay={0.7}>
@@ -52,6 +53,7 @@ const page = () => {
                 className="mb-12 sm:mb-0 z-20 w-full relative"
                 src={HeroDoctors}
                 alt="SecondDoctor"
+                placeholder="blur"
               />
             </Reveal>
           </div>

@@ -37,6 +37,7 @@ const page = () => {
           alt="Group of doctors"
           width={800}
           className="mx-auto mt-20"
+          placeholder="blur"
         />
       </Reveal>
       <div className="w-full justify-between mt-52 ">
@@ -108,6 +109,7 @@ const page = () => {
                 className="max-w-full"
                 src={Micro}
                 alt="Couple Male Doctors"
+                placeholder="blur"
               />
             </div>
           </Reveal>

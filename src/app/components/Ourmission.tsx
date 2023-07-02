@@ -72,6 +72,7 @@ const Ourmission = () => {
               className="max-w-full mt-16 md:mt-0"
               src={CoupleMaleDoctors}
               alt="Couple Male Doctors"
+              placeholder="blur"
             />
           </Reveal>
         </div>
@@ -150,10 +151,16 @@ const Ourmission = () => {
         </div>
         <Reveal delay={0.25}>
           <div className="pt-12 md:pt-0 flex justify-center w-full xl:justify-end xl:w-[350px]">
-            <Image width={350} src={ThirdDoctor} alt="Doctor Smiling" />
+            <Image
+              placeholder="blur"
+              width={350}
+              src={ThirdDoctor}
+              alt="Doctor Smiling"
+            />
           </div>
         </Reveal>
         <Image
+          placeholder="blur"
           src={GenericGradient}
           alt="gradient"
           className="absolute top-0 left-0 max-w-[500px] z-0"
@@ -204,6 +211,7 @@ const Ourmission = () => {
           src={GenericGradient}
           alt="gradient"
           className="absolute top-0 left-0 h-[1700px] w-[1700px] z-0"
+          placeholder="blur"
         />
         <div className="w-full ">
           <Reveal delay={0.25}>
