@@ -29,6 +29,7 @@ const TeamMembers = ({right, name, position, img, id}: TeamMembersProps) => {
           src={img}
           className="rounded-full"
           alt="Staff profile photo"
+          placeholder="blur"
         />
       </div>
       <div

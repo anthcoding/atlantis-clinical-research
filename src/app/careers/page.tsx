@@ -48,6 +48,7 @@ const Careers = () => {
           </div>
           <div className="w-full md:w-2/4">
             <Image
+              placeholder="blur"
               src={BussinesDoctor}
               alt="Bussines Doctor"
               className="w-full"
@@ -66,8 +67,9 @@ const Careers = () => {
           <div className="w-full md:w-2/4 mb-6 md:mb-0">
             <Image
               src={MedicalAssistant}
-              alt="Bussines Doctor"
+              alt="Bussines Doctors"
               className="w-3/4"
+              placeholder="blur"
             />
           </div>
           <div className="w-full md:w-2/4">
