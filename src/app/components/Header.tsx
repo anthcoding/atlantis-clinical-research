@@ -53,7 +53,7 @@ const Header = () => {
                 onClick={() => setBurgerOpen(false)}
                 src={Logo}
                 alt="Logo"
-                className="w-[70px] md:w-[100px]"
+                className="w-[70px] md:w-[70px]"
               />
             </Reveal>
           </Link>

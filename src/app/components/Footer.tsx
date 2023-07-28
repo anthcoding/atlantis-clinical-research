@@ -57,10 +57,8 @@ const Footer = () => {
         <div className="w-full md:w-1/3 flex flex-row sm:flex-col items-center justify-center">
           <div className="flex justify-center items-center mx-auto md:mx-0 md:block ">
             <Link href="home">
-              <Image src={Logo} alt="Logo" className="w-[50px] md:w-[80px]" />
+              <Image src={Logo} alt="Logo" className="w-[50px] md:w-[70px]" />
             </Link>
-            {/* <AiOutlineInstagram className="text-lg mx-auto text-lightGray" /> */}
-            {/* <AiOutlineFacebook className="text-lg mx-auto text-lightGray" /> */}
           </div>
         </div>
       </div>
