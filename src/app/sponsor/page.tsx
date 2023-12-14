@@ -1,218 +1,158 @@
 import Image from 'next/image';
 import React from 'react';
-
-import GroupDoctors from '../../../public/assests/GroupDoctors.png';
-import Micro from '../../../public/assests/Micro.png';
-import Reveal from '../components/Reveal';
+import Link from 'next/link';
+import DoctorFemale from '../../../public/assests/clinical reasea 1.png';
 
 const page = () => {
-  return (
-    <div className="w-9/12 mx-auto">
-      <div className="w-9/12 md:w-5/12 mx-auto">
-        {' '}
-        <Reveal delay={0.25}>
-          <h1 className="text-center text-xlg sm:text-xl font-bold text-darkHeading mb-6 lg:mb-12">
-            <span className="text-darkGray">Our</span> priorities
-          </h1>
-        </Reveal>
-        <Reveal delay={0.35}>
-          <p className="text-center text-sm sm:text-md text-darkGray font-light">
-            At Atlantis Clinical Research, we understand how important clinical
-            trials are to our sponsors. That’s why we are committed to providing
-            the fastest and acure quality data following the strict Good
-            Clinical Practice Guideline.
-            <br />
-            <br />
-            Our dedication begins with our staff. Atlantis Clinical Research
-            Principal Investigators are active medical practitioners in
-            specialized solo practices or as partners in well-established group
-            practices. All Atlantis Clinical Research PIs are Board-certified
-            and are engaged in delivering a high standard of care.
-          </p>
-        </Reveal>
-      </div>
-      <Reveal delay={0.35}>
-        <Image
-          src={GroupDoctors}
-          alt="Group of doctors"
-          width={800}
-          className="mx-auto mt-20"
-          placeholder="blur"
-        />
-      </Reveal>
-      <div className="w-full justify-between mt-52 ">
-        <Reveal delay={0.25}>
-          <h1 className="w-full lg:w-2/4 mx-auto text-center text-md md:text-lg  font-bold text-darkHeading mb-6 lg:mb-16">
-            <span className="text-darkGray">
-              Atlantis Clinical Research Clinical
-            </span>{' '}
-            Staff are highly trained professionals and fully trained in GCP and
-            HIPPA.
-          </h1>
-        </Reveal>
-        <Reveal delay={0.35}>
-          <div className="flex flex-col md:flex-row justify-between ">
-            <div className="w-full md:w-[35%]">
-              <p className="mb-12 md:mb-0 text-center md:text-start text-sm sm:text-md text-darkGray font-light">
-                As a rule, our Clinical Coordinators work on no more than two
-                trials at a time — this ensures thorough preparation, rapid
-                patient recruitment, availability to participants and monitors,
-                and timely document submission.
-              </p>
-            </div>
-            <div className="w-full md:w-[35%]">
-              <p className="text-center md:text-start text-sm sm:text-md text-darkGray font-light">
-                We recruit study participants through an outstanding
-                collaboration with primary care provider offices, community
-                health facilities, and local media advertising. In all studies
-                we have participated in, we have met and, in most, have far
-                exceeded the enrollment targets.
-              </p>
-            </div>
-          </div>
-        </Reveal>
-        <div className="items-center lg:flex justify-between mt-52">
-          <div className="w-[9/12] md:w-[100%]">
-            <Reveal delay={0.25}>
-              <h1 className="text-darkHeading text-md md:text-lg font-bold mb-8">
-                We are interest{' '}
-                <span className="text-darkGray">
-                  to conduct studies in the following therapeutic areas
-                </span>
-                , but open to be involved in any other speciality as per request
-              </h1>
-            </Reveal>
-            <Reveal delay={0.35}>
-              <ul className="text-sm sm:text-md list-disc w-5/12 text-darkGray lg:ml-[50%] font-light mx-auto">
-                <li>Cosmetic Medicine</li>
-                <br />
-                <li>Dermatology</li>
-                <br />
-                <li>Gastroenterology</li>
-                <br />
-                <li>Geriatrics</li>
-                <br />
-                <li>Internal Medicine</li>
-                <br />
-                <li>Neuropsychology</li>
-                <br />
-                <li>Pain Management</li>
-                <br />
-                <li>Psychiatry</li>
-                <li>Obesity</li>
-              </ul>
-            </Reveal>
-          </div>
-          <Reveal delay={0.45}>
-            <div className="max-w-full ">
-              <Image
-                className="max-w-full"
-                src={Micro}
-                alt="Couple Male Doctors"
-                placeholder="blur"
-              />
-            </div>
-          </Reveal>
-        </div>
-        <div className="mt-52">
-          <Reveal delay={0.25}>
-            <h1 className="text-xlg sm:text-xl font-bold text-darkHeading  mb-6 lg:mb-12">
-              <span className="text-darkGray">Our</span> Facility
-            </h1>
-          </Reveal>
-          {/* <div className="ml-auto w-[80%]"></div> */}
-          <Reveal delay={0.3}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              <span className="font-bold">1900 sq. ft.</span> exclusively for
-              clinical research
-            </h3>
-          </Reveal>
-          <Reveal delay={0.35}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              Dedicated rooms for <span className="font-bold">monitors</span>
-            </h3>
-          </Reveal>
-          <Reveal delay={0.4}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              <span className="font-bold">Secure</span> drug storage room
-            </h3>
-          </Reveal>
-          <Reveal delay={0.45}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              <span className="font-bold">Secure</span> refrigerating storage
-              unit
-            </h3>
-          </Reveal>
-          <Reveal delay={0.5}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              <span className="font-bold">Pharmacokinetic</span> sampling unit
-            </h3>
-          </Reveal>
-          <Reveal delay={0.55}>
-            <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-              <span className="font-bold"> ECG</span> equipment
-            </h3>
-          </Reveal>
-        </div>
-        <Reveal delay={0.6}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            Access to{' '}
-            <span className="font-bold">
-              X-ray/radiology, CT-scan, endoscopy
-            </span>
-            , and facilities
-          </h3>
-        </Reveal>
-        <Reveal delay={0.65}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            <span className="font-bold"> Broadband Internet</span> access and
-            secure computer network
-          </h3>
-        </Reveal>
-        <br />
-        <br />
-        <br />
-        <Reveal delay={0.7}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            Less than 30 min from{' '}
-            <span className="font-bold">Miami International Airport</span>
-          </h3>
-        </Reveal>
-        <Reveal delay={0.75}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            Close to a large number of medical offices covering multiple
-            specialties.
-          </h3>
-        </Reveal>
-        <Reveal delay={0.8}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            Just minutes from{' '}
-            <span className="font-bold">Baptist and Kendall Hospitals</span>
-          </h3>
-        </Reveal>
-        <Reveal delay={0.85}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            Abundance of{' '}
-            <span className="font-bold">public transportation</span>
-          </h3>
-        </Reveal>
-        <Reveal delay={0.9}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            <span className="font-bold">Free parking</span> for participants and
-            monitors
-          </h3>
-        </Reveal>
-        <Reveal delay={0.95}>
-          <h3 className="text-end mb-2 text-md md:text-lg text-darkGray font-light">
-            {' '}
-            <span className="font-bold">Atlantis Clinical Research</span> is
-            located in the center of the popular Westchester neighborhood of
-            Miami
-          </h3>
-        </Reveal>
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 xxl:w-9/12 md:w-10/12 mx-auto pt-[120px]">
+				<div className="w-full mb-16">
+					<div>
+						<h2 className="text-center h2">Our Priorities</h2>
+					</div>
+					<div className="mt-6 leading-none h3 text-start lg:w-4/6 text-secondaryDark">
+						At
+						<span className="text-darkBlue"> Atlantis Clinical Research </span>
+						we understand how important clinical trials are to our sponsors.
+						That’s why we are committed to providing the fastest and accurate
+						quality data following the strict
+						<span className="text-darkBlue">
+							Good Clinical Practice Guideline.
+						</span>{' '}
+					</div>
+					<br />
+					<div className="w-3/4 mt-6 lg:w-1/3 ">
+						<h6 className="text-start h6 text-secondaryDark">
+							All Atlantis Clinical Research PIs are Board-certified and are
+							engaged in delivering a high standard of care.
+						</h6>
+					</div>
+				</div>
+				<div className="mx-auto mt-40 leading-none text-center lg:mt-72 h3 lg:w-5/6 text-secondaryDark">
+					<span className="text-darkBlue">Atlantis Clinical Research</span>{' '}
+					clinical staff are highly trained professionals and fully trained in
+					GCP and HIPAA
+				</div>
+				<div className=" mt-20 animate-[fadeIn_.4s_ease-in-out]  flex flex-col gap-10 xl:gap-20 md:flex-row">
+					<div className="md:w-[50%]">
+						<Image
+							alt="Research Clinic doctors smiling"
+							src={DoctorFemale}
+							className="w-full rounded-xl md:w-9/12 lg:w-11/12 lg:ml-auto"
+						/>
+					</div>
+					<div className="md:w-[50%] flex flex-col justify-center items-center lg:items-start">
+						<div className="md:w-2/4 pb-4 lg:pb-10 border-b-[.8px] border-dark">
+							<h6 className="text-start h6 text-secondaryDark">
+								As a rule, our Clinical Coordinators work on no more than two
+								trials at a time HIPAA
+							</h6>
+						</div>
+						<div className="pt-4 lg:pt-10 md:w-2/4 ">
+							<h6 className="h6 ext-start text-secondaryDark">
+								this ensures thorough preparation, rapid patient recruitment,
+								availability to participants and monitors, and timely document
+								submission.
+							</h6>
+							<button className="bg-tertiaryDark rounded-[8px] shadow-lg tracking-wider text-white text-sm px-5 py-2 w-[150px] hover:opacity-90 duration-200  hover:shadow-md mt-4">
+								Join The Team
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="grid w-full grid-flow-col grid-rows-3 gap-4 pt-10 pb-10 mt-20 lg:mt-40 bg-lightBlue gap-y-6 lg:pt-52 lg:gap-y-32 lg:pb-52">
+				<div className="">
+					{' '}
+					<h3 className="text-center h4-2 text-secondaryDark">
+						Cosmetic medicine
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">Dermatology</h3>
+				</div>
+				<div>
+					<h3 className="text-center h4-2 text-secondaryDark">
+						Gastroenterology
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">Geriatrics</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center uppercase h4-2 text-dark">
+						therapeutic areas
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">
+						Internal Medicine
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">
+						Neuropsychology
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">
+						Pain Management
+					</h3>
+				</div>
+				<div className="">
+					<h3 className="text-center h4-2 text-secondaryDark">Psychiatry</h3>
+				</div>
+			</div>
+			<div className="w-11/12 mx-auto mt-20 xxl:w-9/12 md:w-10/12 lg:mt-40">
+				<h3 className="h3">Our facilities</h3>
+				<h5 className="h5 text-end text-secondaryDark">
+					1900 sq. ft. exclusively for clinical research
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Dedicated rooms for monitors
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Secure drug storage room
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Secure refrigerating storage unit
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Pharmacokinetic sampling unit
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">ECG equipment</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Access to X-ray/radiology, CT-scan, endoscopy and facilities
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Broadband Internet access and secure computer network
+				</h5>
+				<br />
+				<br />
+				<h5 className="h5 text-end text-secondaryDark">
+					Less than 30 min from Miami International Airport
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Close to a large number of medical offices covering multiple
+					specialties.
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Just minutes from Baptist and Kendall Hospitals
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Abundance of public transportation
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Free parking for participants and monitors
+				</h5>
+				<h5 className="h5 text-end text-secondaryDark">
+					Atlantis Clinical Research is located in the center of the popular
+					Westchester neighborhood of Miami
+				</h5>
+			</div>
+		</>
+	);
 };
 
 export default page;

@@ -2,3 +2,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.h1 {
+	font-size: clamp(4.5rem, 9vw, 21rem);
+	font-weight: 300	;
+}
+
+.h2 {
+	font-size: clamp(3rem, 5.6vw, 18rem);
+	line-height: 1;
+	font-weight: 300;
+}
+
+.h3 {
+	font-size: clamp(2rem, 3.1vw, 18rem);
+	font-weight: 300;
+}
+
+.h3-2 {
+	font-size: clamp(1.5rem, 3.4vw, 21rem);
+	font-weight: 300;
+}
+
+.h4 {
+	line-height: 1;
+	font-size: clamp(1.8rem, 3vw, 7rem);
+	font-weight: 300;
+}
+
+.h4-2 {
+	line-height: 1;
+	font-size: clamp(.7rem, 3vw, 7rem);
+	font-weight: 300;
+}
+
+.h5 {
+	font-size: clamp(1.3rem, 1.8vw, 6rem);
+	font-weight: 300;
+}
+
+.h6 {
+	font-size: clamp(.8rem, 1vw, 1.3rem);
+	font-weight: 300;
+}
+
+.p{
+	font-size: clamp(.7rem, .9vw, 1.1rem);
+	font-weight: 300;
+}
+
+.sponsorBg {
+	background-image: url('../../public/assests/our-mission-gradient.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

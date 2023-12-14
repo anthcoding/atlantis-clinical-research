@@ -1,57 +1,50 @@
 import React from 'react';
-import Reveal from '../components/Reveal';
 
 const Learn = () => {
-  return (
-    <div className="w-10/12 mx-auto">
-      <Reveal delay={0.25}>
-        <div className="w-full md:w-5/12 mx-auto">
-          <h1 className="text-center text-xlg sm:text-xl font-bold text-darkGray mb-6 lg:mb-12">
-            What is a Research Study?
-          </h1>
-          <p className="text-center text-sm sm:text-md text-darkGray font-light mb-36">
-            A research study is a scientific way to improve or develop new
-            methods of health care. Studies are designed to answer specific
-            questions on how to prevent, diagnose, or treat diseases and
-            disorders. Many types of research studies exist. For example,
-            clinical trials test new medicines or devices. Other studies use
-            interviews or surveys to understand health or behavior.
-          </p>
-        </div>
-      </Reveal>
-      <Reveal delay={0.55}>
-        <div className="w-9/12 mx-auto flex flex-col md:flex-row justify-between ">
-          <div className="w-full md:w-[40%] mb-12 md:mb-0">
-            <h1 className="text-center text-xmd sm:text-lg font-bold text-darkGray  mb-8">
-              Why are Research Studies important?
-            </h1>
-            <p className="text-center text-sm sm:text-md text-darkGray font-light">
-              Research studies are important because they contribute to
-              knowledge and progress on diseases and disorders. Research is the
-              fastest and safest way to find treatments that work.
-            </p>
-          </div>
-          <div className="w-full md:w-[40%]">
-            <h1 className="text-center text-xmd sm:text-lg font-bold text-darkGray  mb-8">
-              Why should I join?
-            </h1>
-            <ul className="list-disc text-sm sm:text-md text-darkGray font-light mx-auto">
-              <li> To learn about ways to improve your health possibly.</li>
-              <br />
-              <li>
-                To help evaluate medications, tests, or programs that may not be
-                available outside of research.
-              </li>
-              <br />
-              <li>To potentially help others.</li>
-              <br />
-              <br />
-            </ul>
-          </div>
-        </div>
-      </Reveal>
-    </div>
-  );
+	return (
+		<div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 mx-auto xxl:w-9/12 md:w-10/12 pt-[120px]">
+			<div className="mx-auto mt-6 leading-none text-center h3 lg:w-4/6 text-dark">
+				What is a Research Study?
+				<h6 className="mt-16 leading-normal text-center h6 text-secondaryDark">
+					A research study is a scientific way to improve or develop new methods
+					of health care. Studies are designed to answer specific questions on
+					how to prevent, diagnose, or treat diseases and disorders. Many types
+					of research studies exist. For example, clinical trials test new
+					medicines or devices. Other studies use interviews or surveys to
+					understand health or behavior.
+				</h6>
+			</div>
+			<div className="mx-auto mt-6 leading-none text-center h3 lg:w-4/6 text-dark">
+				Why are Research Studies important?
+				<h6 className="mt-16 leading-normal text-center h6 text-secondaryDark">
+					Research studies are important because they contribute to knowledge
+					and progress on diseases and disorders. Research is the fastest and
+					safest way to find treatments that work.
+				</h6>
+			</div>
+			<div className="mx-auto mt-24 leading-none text-center lg:mt-52 h3 lg:w-4/6 text-dark">
+				
+				Why should I join?
+			</div>
+			<div className="flex flex-wrap justify-center w-full gap-2 mt-16 lg:flex-nowrap lg:gap-5">
+				<div className="flex flex-col justify-center items-center w-2/3 px-4 py-8 border lg:justify-end lg:py-20 lg:w-1/3 border-borderDark xxl:h-[638px] rounded-xl h-fit bg-cardWhite">
+					<h3 className="mx-auto leading-none text-center lg:text-start h3-2 lg:w-4/6 text-secondaryDark">
+						To assess research exclusive treatments and tests
+					</h3>
+				</div>
+				<div className="flex flex-col justify-center  w-2/3 px-4 py-8 border lg:justify-end lg:py-20 lg:w-1/3 border-borderDark xxl:h-[638px] rounded-xl h-fit bg-cardBlue">
+					<h3 className="mx-auto leading-none text-center lg:text-start h3-2 lg:w-4/6 text-dark">
+						To learn ways to improve your health
+					</h3>
+				</div>
+				<div className="flex flex-col justify-center items-center  lg:justify-end w-2/3 lg:w-1/3 px-4 py-8 lg:py-20 border border-borderDark xxl:h-[638px] rounded-xl bg-cardWhite">
+					<h3 className="mx-auto leading-none text-center lg:text-start h3-2 lg:w-4/6 text-secondaryDark">
+						To potentially help others
+					</h3>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Learn;
