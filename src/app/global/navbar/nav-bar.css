@@ -34,7 +34,6 @@ body {
   z-index: 4;
   cursor: pointer;
   overflow: hidden;
-  mix-blend-mode: difference;
   z-index: 4;
 }
 
@@ -48,7 +47,7 @@ body {
 .hamburger-menu input:focus-visible {
   border: 1px solid var(--background);
   box-shadow: 0 0 0 1px var(--foreground);
-  z-index: 4;
+  z-index: 100000;
 }
 
 .hamburger-menu::before,
@@ -62,7 +61,7 @@ body {
   background-color: var(--foreground);
   border-radius: 9999px;
   transform-origin: right;
-  transition: opacity var(--animation-timing), width var(--animation-timing),
+  transition: var(--animation-timing), width var(--animation-timing),
     rotate var(--animation-timing), translate var(--animation-timing),
     background-color var(--animation-timing);
   

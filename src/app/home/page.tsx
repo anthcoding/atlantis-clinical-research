@@ -11,7 +11,7 @@ import { BsArrowDownRight } from 'react-icons/bs';
 const Page = () => {
 	return (
 		<>
-			<div className="scroll-smooth w-11/12 xxl:w-9/12 md:w-10/12 pt-[120px] mx-auto">
+			<div className="scroll-smooth w-11/12 xxl:w-9/12 md:w-10/12 pt-[80px] lg:pt-[120px] mx-auto">
 				<div className="animate-[fadeIn_.4s_ease-in-out] flex flex-col md:flex-row">
 					<div className="md:w-[50%]">
 						<h1 className="h1 leading-[70px] md:leading-[80px] xl:leading-[117px] xxl:leading-[190px] tracking-tighter md:tracking-tight xxl:tracking-[-14.2px] text-darkBlue">
@@ -43,7 +43,7 @@ const Page = () => {
 						<BsArrowDownRight className="rotate-45 text-md lg:text-xl font-extraLight" />
 					</Link>
 				</div>
-				<div id='Whoarewe' className="w-full mb-16 mt-60">
+				<div id='Whoarewe' className="w-full mt-32 mb-32 lg:mt-60">
 					<div>
 						<h2  className="text-center h2">Who are we ?</h2>
 					</div>

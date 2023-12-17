@@ -6,8 +6,8 @@ import DoctorFemale from '../../../public/assests/clinical reasea 1.png';
 const page = () => {
 	return (
 		<>
-			<div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 xxl:w-9/12 md:w-10/12 mx-auto pt-[120px]">
-				<div className="w-full mb-16">
+			<div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 xxl:w-9/12 md:w-10/12 mx-auto pt-[80px] lg:pt-[120px]">
+				<div className="w-full mb-8">
 					<div>
 						<h2 className="text-center h2">Our Priorities</h2>
 					</div>
@@ -22,19 +22,19 @@ const page = () => {
 						</span>{' '}
 					</div>
 					<br />
-					<div className="w-3/4 mt-6 lg:w-1/3 ">
+					<div className="w-3/4 lg:w-1/3 ">
 						<h6 className="text-start h6 text-secondaryDark">
 							All Atlantis Clinical Research PIs are Board-certified and are
 							engaged in delivering a high standard of care.
 						</h6>
 					</div>
 				</div>
-				<div className="mx-auto mt-40 leading-none text-center lg:mt-72 h3 lg:w-5/6 text-secondaryDark">
+				<div className="mx-auto mt-20 leading-none text-center lg:mt-72 h3 lg:w-5/6 text-secondaryDark">
 					<span className="text-darkBlue">Atlantis Clinical Research</span>{' '}
 					clinical staff are highly trained professionals and fully trained in
 					GCP and HIPAA
 				</div>
-				<div className=" mt-20 animate-[fadeIn_.4s_ease-in-out]  flex flex-col gap-10 xl:gap-20 md:flex-row">
+				<div className="mt-20 animate-[fadeIn_.4s_ease-in-out]  flex flex-col gap-5 xl:gap-20 md:flex-row">
 					<div className="md:w-[50%]">
 						<Image
 							alt="Research Clinic doctors smiling"
@@ -43,7 +43,7 @@ const page = () => {
 						/>
 					</div>
 					<div className="md:w-[50%] flex flex-col justify-center items-center lg:items-start">
-						<div className="md:w-2/4 pb-4 lg:pb-10 border-b-[.8px] border-dark">
+						<div className="md:w-2/4 lg:pb-10 lg:border-b-[.8px] border-dark">
 							<h6 className="text-start h6 text-secondaryDark">
 								As a rule, our Clinical Coordinators work on no more than two
 								trials at a time HIPAA
@@ -62,7 +62,7 @@ const page = () => {
 					</div>
 				</div>
 			</div>
-			<div className="grid w-full grid-flow-col grid-rows-3 gap-4 pt-10 pb-10 mt-20 lg:mt-40 bg-lightBlue gap-y-6 lg:pt-52 lg:gap-y-32 lg:pb-52">
+			<div className="hidden w-full grid-flow-col grid-rows-3 gap-4 pt-10 pb-10 mt-20 lg:grid lg:mt-40 bg-lightBlue gap-y-6 lg:pt-52 lg:gap-y-32 lg:pb-52">
 				<div className="">
 					{' '}
 					<h3 className="text-center h4-2 text-secondaryDark">

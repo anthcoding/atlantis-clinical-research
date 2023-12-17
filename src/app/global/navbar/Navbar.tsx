@@ -13,6 +13,7 @@ const NavLinks = [
 	{ name: 'Sponsor', url: '/sponsor' },
 	{ name: 'Careers', url: '/careers' },
 	{ name: 'Learn', url: '/learn' },
+	{ name: 'Contact', url: '/contact-us' },
 ];
 
 const NavBar = () => {

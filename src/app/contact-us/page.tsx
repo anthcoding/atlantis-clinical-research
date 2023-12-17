@@ -50,10 +50,10 @@ const ContactUS = () => {
 
 	return (
 		
-    <div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 mx-auto xxl:w-5/12 md:w-10/12 pt-[120px]">
+    <div className="animate-[fadeIn_.4s_ease-in-out] w-11/12 mx-auto xxl:w-5/12 md:w-10/12 pt-[80px] lg:pt-[120px]">
 			<div className="mx-auto mt-6 leading-none text-start h3 lg:w-4/6 text-dark">
 				Let's talk!
-				<h6 className="mt-8 leading-normal text-start h6 text-secondaryDark">
+				<h6 className="mt-4 leading-normal text-start h6 text-secondaryDark">
         Thank you for visiting Atlantis Clinical Research . We value your interest and would love to hear from you. Whether you have a question, need assistance, or simply want to share your thoughts, our team is here to help.
 				</h6>
       <div className="w-full ">
