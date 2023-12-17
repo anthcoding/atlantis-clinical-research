@@ -68,7 +68,7 @@ const NavBar = () => {
 					/>
 				</label>
 				<aside className="flex flex-col justify-between sidebar">
-					<ul className="flex flex-col items-center w-3/4 gap-4 mx-auto mt-4 text-xlMobile">
+					<ul className="flex flex-col items-center w-3/4 gap-0 mx-auto mt-4 text-xlMobile">
 						{NavLinks.map((value) => (
 							<Link
 								className={`${
