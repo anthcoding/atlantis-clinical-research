@@ -34,7 +34,7 @@ const page = () => {
 					clinical staff are highly trained professionals and fully trained in
 					GCP and HIPAA
 				</div>
-				<div className="mt-20 animate-[fadeIn_.4s_ease-in-out]  flex flex-col gap-5 xl:gap-20 md:flex-row">
+				<div className="mt-10 lg:mt-20 animate-[fadeIn_.4s_ease-in-out]  flex flex-col gap-5 xl:gap-20 md:flex-row">
 					<div className="md:w-[50%]">
 						<Image
 							alt="Research Clinic doctors smiling"
@@ -50,14 +50,14 @@ const page = () => {
 							</h6>
 						</div>
 						<div className="pt-4 lg:pt-10 md:w-2/4 ">
-							<h6 className="h6 ext-start text-secondaryDark">
+							<h6 className="mb-4 h6 ext-start text-secondaryDark">
 								this ensures thorough preparation, rapid patient recruitment,
 								availability to participants and monitors, and timely document
 								submission.
 							</h6>
-							<button className="bg-tertiaryDark rounded-[8px] shadow-lg tracking-wider text-white text-sm px-5 py-2 w-[150px] hover:opacity-90 duration-200  hover:shadow-md mt-4">
+							<Link href='/contact-us' className="bg-tertiaryDark rounded-[8px] shadow-lg tracking-wider text-white text-sm px-5 py-2 w-[150px] hover:opacity-90 duration-200  hover:shadow-md mt-4">
 								Join The Team
-							</button>
+							</Link>
 						</div>
 					</div>
 				</div>

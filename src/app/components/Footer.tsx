@@ -15,9 +15,9 @@ const Footer = () => {
 					9380 Sw 72nd St Ste B238 Miami Florida​
 				</Link>
 			</div>
-			<div className="flex justify-end w-full mt-16">
+			<div className="relative flex justify-end w-full mt-16">
 				<Link
-					className="absolute flex items-center justify-center w-32 h-32 p-4 mx-auto mt-6 duration-300 transform border rounded-full hover:scale-125 hover:shadow-lg lg:-translate-x-1/2 lg:-translate-y-3/5 h6 top-3/5 left-4 lg:left-1/2 border-dark md:w-40 md:h-40 md:mx-0"
+					className="absolute flex items-center justify-center w-32 h-32 p-4 mx-auto duration-300 transform border rounded-full hover:scale-125 hover:shadow-lg lg:-translate-x-2/4 h6 left-4 lg:left-1/2 border-dark md:w-40 md:h-40 md:mx-0"
 					href="/contact-us"
 				>
 					Get in Touch
