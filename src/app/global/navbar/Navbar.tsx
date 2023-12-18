@@ -36,7 +36,7 @@ const NavBar = () => {
 					</div>
 					<div className="items-center justify-center hidden pl-4 bg-gray-400 rounded-lg md:flex bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10">
 						<ul className="flex gap-8">
-							{NavLinks.slice(1).map((link) => (
+							{NavLinks.slice(1, 4).map((link) => (
 								<li key={link.name}>
 									<Link
 										className={`${
